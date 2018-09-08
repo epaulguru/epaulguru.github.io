@@ -1,0 +1,33 @@
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; /*3 lines push footer to bottom */
+	background-color: #000;
+	background-image: url("longroad.jpg");
+	background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  font-family: "Times New Roman", serif; /*overide BS font-family*/
+}
+
+h1, h2, h3 {
+	color: rgb(75, 75, 65);
+	text-align: center;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.btn-secondary {
+  color: rgb(118, 82, 65);
+  background-color: #111;
+
+}
+
+/* Troubleshooting flexbox 
+.col {
+  background-color: grey;
+  border: 1px solid black;
+}*/
+
